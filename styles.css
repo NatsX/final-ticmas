@@ -1,0 +1,251 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color: #f1c40f;
+  }
+  
+  .navbar .active {
+    color: #f1c40f;
+  }
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: #f1c40f;
+    color: #333;
+  }
+  
+  #about h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  #about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  #about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  #experience {
+    background-color: #333;
+    color: #fff;
+    padding: 5rem 0;
+  }
+  
+  #experience h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  #skills {
+    background-color: #f1c40f;
+    color: #333;
+    padding: 5rem 0;
+  }
+  
+  #skills h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-bar {
+    width: 80%;
+    height: 20px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-bar:nth-child(1) {
+    width: 90%;
+    background-color: #333;
+  }
+  
+  .skill-bar:nth-child(2) {
+    width: 80%;
+    background-color: #333;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    }
+    
+    .section {
+    background-color: #f5f5f5;
+    padding: 50px;
+    }
+    
+    .navbar {
+    background-color: #333;
+    overflow: hidden;
+    }
+    
+    .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    }
+
+.navbar a.active {
+    background-color: #ddd;
+    color: black;
+    }
+
+    .card {
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-body {
+    padding: 20px;
+    }
+    
+    .card h2 {
+    margin-top: 0;
+    }
+    
+    .card h3 {
+    color: #999;
+    }
+    
+    .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .skill {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    .skill h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    }
+    
+    .skill-bar {
+    height: 20px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    }
+    
+    .skill:nth-child(1) .skill-bar {
+    background-color: #4CAF50;
+    }
+    
+    .skill:nth-child(2) .skill-bar {
+    background-color: #2196F3;
+    }
+    
+    .skill:nth-child(3) .skill-bar {
+    background-color: #f44336;
+    }
+    
+    .skill:nth-child(4) .skill-bar {
+    background-color: #fff07;
+    }
+    
+    .skill:nth-child(5) .skill-bar {
+    background-color: #673AB7;
+    }
+    
+    .skill:nth-child(6) .skill-bar {
+    background-color: #9C27B0;
+    }
+    
+    .skill:nth-child(7) .skill-bar {
+    background-color: #607D8B;
+    }
+    
+    @media screen and (max-width: 768px) {
+    .skill {
+    width: 50%;
+    }
+    }
+    
+    @media screen and (max-width: 480px) {
+    .skill {
+    width: 100%;
+    }
+    }
